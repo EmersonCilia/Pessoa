@@ -1,7 +1,6 @@
 public abstract class Pessoa {
 
     private String nome;
-    public abstract String getTipo();
 
     public Pessoa(String nome) {
         this.nome = nome;
