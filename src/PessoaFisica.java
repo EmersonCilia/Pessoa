@@ -10,10 +10,6 @@ public class PessoaFisica extends Pessoa {
         return CPF;
     }
 
-    @Override
-    public String getTipo() {
-        return "Pessoa Física";
-    }
 
     @Override
     public String toString() {
