@@ -11,11 +11,6 @@ public class PessoaJuridica extends Pessoa {
     }
 
     @Override
-    public String getTipo() {
-        return "Pessoa Jurídica";
-    }
-
-    @Override
     public String toString() {
         return String.format("""
                         Nome: %s
