@@ -1,12 +1,12 @@
 public abstract class Pessoa {
 
-    private String nome;
+    private final String NOME;
 
     public Pessoa(String nome) {
-        this.nome = nome;
+        this.NOME = nome;
     }
 
     public String getNome() {
-        return nome;
+        return NOME;
     }
 }
